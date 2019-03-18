@@ -17,4 +17,6 @@ Préparation de l'environnement avant de lancer
 4) coté Arduino : 
     brancher comme suite : 
     portOneWire = 23;
-    Led sur le port :25; 
+    Led sur le port :25
+    puis lancer le script "mqtt_full.ino"
+
