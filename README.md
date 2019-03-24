@@ -33,9 +33,9 @@
 
 1) Dans un invite de commande lancer : 
     cd "Path ou ou vous avez installer mosquitto"
-    puis : mosquitto_pub -t "UCA/Batiments/salles/temp"
+    puis : mosquitto_pub -t "UCA/Batiments/salles/temp" -m "Tapez un mesage"
     
 2) Dans un autre invite de commande lancer : 
     cd "Path ou ou vous avez installer mosquitto " exemple "C:\ProgramFiles\mosquitto"
-    puis : mosquitto_sub -t "UCA/Batiments/salles/temp"
+    puis : mosquitto_sub -t "UCA/Batiments/salles/temp" 
 3) Une fois finaliser le branchement de l'ESP32, téleverser le code et observer 
